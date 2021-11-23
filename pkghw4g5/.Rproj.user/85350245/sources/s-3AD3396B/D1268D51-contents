@@ -1,9 +1,0 @@
-#Installing packages for the homework:
-
-packages <- c(
-  "dplyr", "tidyverse", #for problem 1
-  "devtools", "roxygen2", "testthat", "knitr", #problem2
-  "pkdown", "blogdown" #for problem 4
-
-)
-purrr::walk(packages, library, character.only = TRUE)
