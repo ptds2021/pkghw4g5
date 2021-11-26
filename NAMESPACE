@@ -2,6 +2,7 @@
 
 export(estimate_area)
 export(plot_area)
+export(runDemo)
 importFrom(grDevices,hcl)
 importFrom(graphics,grid)
 importFrom(graphics,lines)
