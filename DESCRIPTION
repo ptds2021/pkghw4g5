@@ -19,3 +19,4 @@ Imports: shiny (>= 1.7.1)
 VignetteBuilder: knitr
 Suggests: knitr, rmarkdown
 package: preferably
+VignetteBuilder: knitr
