@@ -1,6 +1,6 @@
 Package: pkghw4g5
 Type: Package
-Title: Creating and plotting area
+Title: Package for the HW4, by Group n°5
 Version: 0.1.0
 Author: c(
     person("Marie", "Bellier", email = 'marie.bellier@unil.ch', role='aut'),
@@ -9,7 +9,7 @@ Author: c(
     person("Vania", "Rodrigues Telo Ramos", email = 'Vania.rodriguesteloramos@unil.ch', role='aut'),
     person("Xavier", "Renger", email = 'Xavier.renger@unil.ch', role='aut'))
 Maintainer: The package maintainer <meri.likoska@unil.ch>
-Description: This package is able to help you to estimate and plot an area.
+Description: This package is able to estimate and plot an area.
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
