@@ -1,7 +1,7 @@
 library(shiny)
 library(pkghw4g5)
 
-shinyServer(function(input, output) {
+server <- shinyServer(function(input, output) {
 
     simulate <- reactive({
        estimate_area(input$B, input$seed)
@@ -21,4 +21,4 @@ shinyServer(function(input, output) {
 
 })
 
-
+shinyApp(ui = ui, server = server)
