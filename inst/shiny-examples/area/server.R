@@ -1,5 +1,5 @@
 library(shiny)
-library(pkghw4g5) # REPLACE N BY YOUR GROUP NUMBER AND DELETE THIS COMMENT
+library(pkghw4g5)
 
 shinyServer(function(input, output) {
 
@@ -22,4 +22,3 @@ shinyServer(function(input, output) {
 })
 
 
-?system.time
