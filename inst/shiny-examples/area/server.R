@@ -12,11 +12,14 @@ server <- shinyServer(function(input, output) {
     })
 
     output$time <- renderText({
-       system.time(simulate())
+        time_taken  <- system.time(estimate_area(input$B, input$seed))[3]
+        time_taken <- round(time_taken, digits = 3)
+        paste("The estimated time taken to compute the result in second was :", time_taken)
     })
 
     output$area <- renderText({
-       simulate()$estimated_area
+       area_otp <- simulate()$estimated_area
+       paste("The estimated area is :", area_otp)
     })
 
 })
