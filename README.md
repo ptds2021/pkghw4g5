@@ -1,3 +1,5 @@
+use_logo(man/figures/logo.png, geometry = "240x278", retina = TRUE)
+
 # pkghw4g5
  - This is the website of the Group n°5. We created a package named "pkghw4g5" in order to make the Homework 4.
  - This exercise is done for the course "Programming Tools in Data Science".
