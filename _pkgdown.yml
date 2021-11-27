@@ -1,10 +1,22 @@
 reference:
-- title: "PKGDOWNH4G5"
+- title: "Finding the area"
   desc: >
-    Homework 4 done by Group n°5
+    If you want to find and plot an area, just stay on this page :-).
 - contents:
-- title: "Our data"
-  desc: "Description of our data"
+- title: "The area"
+  desc: "Click on the links !"
+- contents:
+  - starts_with("")
+  - starts_with("")
+  - matches("")
+
+About us:
+- title: "About us"
+  desc: >
+    We are the Group n°5
+- contents:
+- title: "Our names"
+  desc: "Marie Bellier, Meri Likoska, Massimo Finini, Xavier Renger & Vania Rodrigues"
 - contents:
   - starts_with("")
   - starts_with("")
