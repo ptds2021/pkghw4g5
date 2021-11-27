@@ -1,7 +1,7 @@
 reference:
 - title: "Finding the area"
   desc: >
-    If you want to find and plot an area, just stay on this page :-).
+    If you want to find and plot an area, just stay on this page.
 - contents:
 - title: "The area"
   desc: "Click on the links !"
@@ -9,15 +9,5 @@ reference:
   - starts_with("")
   - starts_with("")
   - matches("")
-
-About us:
-- title: "About us"
-  desc: >
-    We are the Group n°5
-- contents:
-- title: "Our names"
-  desc: "Marie Bellier, Meri Likoska, Massimo Finini, Xavier Renger & Vania Rodrigues"
-- contents:
-  - starts_with("")
-  - starts_with("")
-  - matches("")
+- r_github_packages:
+  - amirmasoudabdol/preferably
