@@ -4,7 +4,6 @@ author: Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos,
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Vignette pkghw4g5}
-  %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
