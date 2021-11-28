@@ -11,7 +11,7 @@ vignette: >
 ### Welcome to the library `pckghw4g5` which contains the 3 following functions: 
 
 1. **estimate_area()** which will estimate the area and return it's value and the points information
-2. **plot_area()** which plot the results using the points from estiamted_area() 
+2. **plot_area()** which plot the results using the points from estimated_area() 
 3. **runDemo()** which don't need any input and will run a shiny app directly for you to play around with the functions
 
 This website is done for the HW4.
