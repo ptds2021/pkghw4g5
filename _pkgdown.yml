@@ -1,10 +1,11 @@
+url: ~ https://ptds2021.github.io/pkghw4g5/index.html
+template:
+ package: preferably
+
 reference:
-- title: "Finding the area"
-  desc: >
-    If you want to find and plot an area, just stay on this page.
-- contents:
-- title: "The area"
-  desc: "Click on the links !"
+- title: "Our functions:"
+  desc: "Click on the links or go to the vignette to check how they work!"
+
 - contents:
   - starts_with("")
   - starts_with("")
