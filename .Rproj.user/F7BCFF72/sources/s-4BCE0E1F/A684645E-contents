@@ -1,0 +1,2 @@
+Sys.which(Sys.getenv("R_QPDF", "qpdf"))
+install.packages("qpdf")
