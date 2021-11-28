@@ -10,8 +10,14 @@ plot_area(x)
 \item{x}{is area}
 }
 \value{
-plot of the area
+A plot showing the area
 }
 \description{
 Plotting area
+}
+\examples{
+
+x <- estimate_area(B = 5000, seed = 10)
+plot_area(x)
+
 }

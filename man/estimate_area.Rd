@@ -12,8 +12,12 @@ estimate_area(B = 5000, seed = 10)
 \item{seed}{for random number}
 }
 \value{
-value of points in the area
+List containing the proportion of point in the area and the points
 }
 \description{
 Finding area
+}
+\examples{
+estimate_area(50)
+
 }
