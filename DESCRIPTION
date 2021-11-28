@@ -8,7 +8,7 @@ Author: c(
     person("Massimo", "Finini", email = 'Massimo.finini@unil.ch', role='aut'),
     person("Vania", "Rodrigues Telo Ramos", email = 'Vania.rodriguesteloramos@unil.ch', role='aut'),
     person("Xavier", "Renger", email = 'Xavier.renger@unil.ch', role='aut'))
-Maintainer: Meri Likoska <meri.likoska@unil.ch>, Massimo Finini <Massimo.finini@unil.ch>, Marie Bellier <marie.bellier@unil.ch>, Vania Rodrigues Telo Ramos <vanie.rodriguesteloramos@unil.ch>, Xavier Renger <xavier.renger@unil.ch>
+Maintainer: M.Likoska <meri.likoska@unil.ch> - M.Finini <Massimo.finini@unil.ch> - M.Bellier <marie.bellier@unil.ch> - V.Rodrigues <vanie.rodriguesteloramos@unil.ch> - X.Renger <xavier.renger@unil.ch>
 Description: This package is able to estimate and plot an area.
 License: MIT + LICENSE
 Encoding: UTF-8
