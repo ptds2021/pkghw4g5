@@ -1,11 +1,18 @@
 
 #'@title Finding area
+#'
 #'@authors Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
+#'
 #'@param B number of points
 #'@param seed for random number
-#'@return value of points in the area
-#'@example find_area(B=10^6, make_plot = TRUE)
+#'
+#'@return List containing the proportion of point in the area and the points
+#'
+#'@examples
+#'estimate_area(50)
+#'
 #'@importFrom stats runif
+#'
 #'@export
 
 estimate_area <- function(B = 5000, seed = 10) {
@@ -64,12 +71,21 @@ estimate_area <- function(B = 5000, seed = 10) {
 
 
 #'@title Plotting area
+#'
 #'@authors Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
+#'
 #'@param x is area
-#'@return plot of the area
-#'@example plot_area(find_area(B=10^6, make_plot = TRUE))
+#'
+#'@return A plot showing the area
+#'
+#'@examples
+#'
+#'x <- estimate_area(B = 5000, seed = 10)
+#'plot_area(x)
+#'
 #'@importFrom grDevices hcl
 #'@importFrom graphics grid lines rect
+#'
 #'@export
 #'
 plot_area <- function(x) {
