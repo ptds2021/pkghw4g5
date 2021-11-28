@@ -2,7 +2,7 @@
 % Please edit documentation in R/area.R
 \name{estimate_area}
 \alias{estimate_area}
-\title{Finding area}
+\title{Finding area using a Monte-Carlo approach}
 \usage{
 estimate_area(B = 5000, seed = 10)
 }
@@ -12,10 +12,10 @@ estimate_area(B = 5000, seed = 10)
 \item{seed}{for random number}
 }
 \value{
-List containing the proportion of point in the area and the points
+Return the estimated area and the coordinates of the points
 }
 \description{
-Finding area
+Finding area using a Monte-Carlo approach
 }
 \examples{
 estimate_area(50)
