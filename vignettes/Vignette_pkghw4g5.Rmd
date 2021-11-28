@@ -1,9 +1,11 @@
 ---
 title: "Vignette pkghw4g5"
+date: "`r Sys.Date()`"
 author: Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Vignette pkghw4g5}
+  %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
