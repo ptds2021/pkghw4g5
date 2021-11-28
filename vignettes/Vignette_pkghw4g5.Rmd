@@ -3,7 +3,6 @@ title: "Vignette pkghw4g5"
 author: Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteEngine{knitr::knitr}
   %\VignetteIndexEntry{Vignette pkghw4g5}
   %\VignetteEncoding{UTF-8}
 ---
