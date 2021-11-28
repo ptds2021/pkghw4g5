@@ -1,12 +1,12 @@
 
-#'@title Finding area
+#'@title Finding area using a Monte-Carlo approach
 #'
 #'@authors Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
 #'
 #'@param B number of points
 #'@param seed for random number
 #'
-#'@return List containing the proportion of point in the area and the points
+#'@return Return the estimated area and the coordinates of the points
 #'
 #'@examples
 #'estimate_area(50)
@@ -24,10 +24,10 @@ estimate_area <- function(B = 5000, seed = 10) {
     stop("Argument seed is not valid. You must use a positive integer.")
   }
   if (!is.numeric(B)) {
-    stop("Argument B is not valid. You must use a number.")
+    stop("Argument B is not valid. It must be a number.")
   }
   if (!is.numeric(seed)) {
-    stop("Argument seed is not valid. You must use a number.")
+    stop("Argument seed is not valid. It must be a number.")
   }
 
   # set a seed
@@ -70,13 +70,13 @@ estimate_area <- function(B = 5000, seed = 10) {
 
 
 
-#'@title Plotting area
+#'@title Plotting area using the estimate_area() results
 #'
 #'@authors Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
 #'
 #'@param x is area
 #'
-#'@return A plot showing the area
+#'@return A plot showing the estimated area
 #'
 #'@examples
 #'
