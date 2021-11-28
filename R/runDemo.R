@@ -6,10 +6,6 @@
 #'
 #'@return Launch the shiny application to give you the ability to play with the numbers
 #'
-#'@examples
-#'
-#'#runDemo()
-#'
 #'@export
 
 runDemo <- function() {
