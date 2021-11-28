@@ -1,6 +1,6 @@
 library(shiny)
 
-ui <- shinyUI(fluidPage(
+shinyUI(fluidPage(
 
     titlePanel("Area Estimation"),
 
