@@ -1,7 +1,7 @@
 
 #'@title Finding area using a Monte-Carlo approach
 #'
-#'@authors Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
+#'@authors
 #'
 #'@param B number of points
 #'@param seed for random number
