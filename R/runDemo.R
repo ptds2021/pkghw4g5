@@ -1,8 +1,15 @@
 #'@title Application Demo
+#'
 #'@authors Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
+#'
 #'@param ... Nothing
-#'@return launch the shiny application
-#'@example runDemo()
+#'
+#'@return Launch the shiny application to give you the ability to play with the numbers
+#'
+#'@examples
+#'
+#'runDemo()
+#'
 #'@export
 
 runDemo <- function() {
