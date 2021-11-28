@@ -90,6 +90,11 @@ estimate_area <- function(B = 5000, seed = 10) {
 #'
 plot_area <- function(x) {
 
+  if (typeof(x) != "list") {
+    stop("Argument x is not valid. It must be a list.")
+  }
+
+
   points <- x[["points"]]
 
   # Define D1, D2 and D3 for the contour lines on the graph
