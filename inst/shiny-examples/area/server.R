@@ -14,7 +14,8 @@ server <- shinyServer(function(input, output) {
     output$time <- renderText({
         time_taken  <- system.time(estimate_area(input$B, input$seed))[3]
         time_taken <- round(time_taken, digits = 3)
-        paste("The estimated time taken to compute the result in second was :", time_taken)
+        paste("The estimated time taken to compute the result in second was :"
+              , time_taken)
     })
 
     output$area <- renderText({
