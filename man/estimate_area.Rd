@@ -21,3 +21,6 @@ Finding area using a Monte-Carlo approach
 estimate_area(50)
 
 }
+\author{
+Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
+}

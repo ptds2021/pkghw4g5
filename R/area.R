@@ -1,7 +1,7 @@
 
 #'@title Finding area using a Monte-Carlo approach
 #'
-#'@authors Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
+#'@author Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
 #'
 #'@param B number of points
 #'@param seed for random number
@@ -72,7 +72,7 @@ estimate_area <- function(B = 5000, seed = 10) {
 
 #'@title Plotting area using the estimate_area() results
 #'
-#'@authors Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
+#'@author Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
 #'
 #'@param x is area
 #'

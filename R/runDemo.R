@@ -1,6 +1,6 @@
 #'@title Application Demo
 #'
-#'@authors Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
+#'@author Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
 #'
 #'@param ... Nothing
 #'

@@ -21,3 +21,6 @@ x <- estimate_area(B = 5000, seed = 10)
 plot_area(x)
 
 }
+\author{
+Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
+}
