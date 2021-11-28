@@ -27,6 +27,8 @@ As stated earlier, this function returns the area and the points to be able to t
 estimate_area(10)
 ```
 
+The estimated_area returned by the function is then computed using the following formula :
+$$ Blue Surface = ((Total points-Blue points)/Total points)*Box Surface $$
 
 #### plot_area()
 
