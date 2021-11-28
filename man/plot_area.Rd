@@ -2,7 +2,7 @@
 % Please edit documentation in R/area.R
 \name{plot_area}
 \alias{plot_area}
-\title{Plotting area}
+\title{Plotting area using the estimate_area() results}
 \usage{
 plot_area(x)
 }
@@ -10,10 +10,10 @@ plot_area(x)
 \item{x}{is area}
 }
 \value{
-A plot showing the area
+A plot showing the estimated area
 }
 \description{
-Plotting area
+Plotting area using the estimate_area() results
 }
 \examples{
 

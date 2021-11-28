@@ -15,8 +15,3 @@ Launch the shiny application to give you the ability to play with the numbers
 \description{
 Application Demo
 }
-\examples{
-
-#runDemo()
-
-}
