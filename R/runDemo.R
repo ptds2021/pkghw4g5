@@ -2,8 +2,6 @@
 #'
 #'@author Marie Bellier, Massimo Finini, Meri Likoska, Vania Rodrigues Telo Ramos, Xavier Renger
 #'
-#'@param ... Nothing
-#'
 #'@return Launch the shiny application to give you the ability to play with the numbers
 #'
 #'@export
