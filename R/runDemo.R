@@ -8,7 +8,7 @@
 #'
 #'@examples
 #'
-#'runDemo()
+#'#runDemo()
 #'
 #'@export
 
